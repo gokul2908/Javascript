@@ -1,0 +1,78 @@
+body {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.sticky {
+    position: sticky;
+    background-color: #282a35;
+    position: fixed;
+    color: lavender;
+    margin: 0px;
+    width: 100%;
+}
+
+standout, li {
+    background-color: #ebebe0;
+    margin: 5px;
+    /* border:2px solid #000099; */
+    color: red;
+    width: 13%
+}
+
+.fixed {
+    position: fixed;
+    right: 0;
+    bottom: 40%;
+    width: 40px;
+    height: 160px;
+}
+
+.linkedin, .google, .fb {
+    width: 40px;
+    height: 40px;
+}
+
+ul {
+    position: relative;
+}
+
+table {
+    position: absolute;
+    /* top: 70%; */
+    right: 40px;
+}
+
+table, td, th {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: right;
+}
+
+.absolute {
+    position: absolute;
+    padding: 20px;
+}
+
+.relative {
+    position: relative;
+}
+
+.top {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  padding-left: 10px;
+}
